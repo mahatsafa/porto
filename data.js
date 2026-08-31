@@ -9,7 +9,27 @@
 
 const ACHIEVEMENTS = [
   {
-    medal: "gold",              // "gold" | "silver" | "part" (peserta/finalis)
+    medal: "silver",              
+    medalLabelId: "PERAK",
+    medalLabelEn: "SILVER",
+    titleId: "LSN 2026 &mdash; Informatika",
+    titleEn: "LSN 2026 &mdash; Informatika",
+    descId: "Lomba Sains Nasional &middot; Predikat A &middot; Tingkat Nasional",
+    descEn: "Lomba Sains Nasional &middot; Grade A &middot; National Level",
+    date: "11 Agustus 2026"
+  },
+  {
+    medal: "silver",              
+    medalLabelId: "PERAK",
+    medalLabelEn: "SILVER",
+    titleId: "LSN 2026 &mdash; Matematika",
+    titleEn: "LSN 2026 &mdash; Matematika",
+    descId: "Lomba Sains Nasional &middot; Predikat A &middot; Tingkat Nasional",
+    descEn: "Lomba Sains Nasional &middot; Grade A &middot; National Level",
+    date: "11 Agustus 2026"
+  },
+  {
+    medal: "gold",              
     medalLabelId: "EMAS",
     medalLabelEn: "GOLD",
     titleId: "ISCO 2026 &mdash; Matematika",
