@@ -374,3 +374,9 @@
   color: var(--ink);
 }
 .waka-link:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
