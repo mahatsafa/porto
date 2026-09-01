@@ -71,6 +71,30 @@ const root = document.documentElement;
     `).join('');
   }
 
+  /* ---------- hitung & isi stat-row otomatis dari data.js ---------- */
+  function renderStats() {
+    if (typeof ACHIEVEMENTS === 'undefined') return;
+
+    const goldEl = document.getElementById('statGold');
+    const silverEl = document.getElementById('statSilver');
+    const ciscoEl = document.getElementById('statCisco');
+    const projEl = document.getElementById('statProjects');
+
+    if (goldEl) goldEl.textContent = ACHIEVEMENTS.filter(a => a.medal === 'gold').length;
+    if (silverEl) silverEl.textContent = ACHIEVEMENTS.filter(a => a.medal === 'silver').length;
+
+    if (ciscoEl && typeof CERTIFICATES !== 'undefined') {
+      ciscoEl.textContent = CERTIFICATES.filter(c =>
+        (c.catId || '').toLowerCase().includes('cisco')
+      ).length;
+    }
+
+    if (projEl && typeof PROJECTS !== 'undefined') {
+      projEl.textContent = PROJECTS.length;
+    }
+  }
+
+  renderStats();
   renderAchievements();
   renderCertificates();
   renderProjects();

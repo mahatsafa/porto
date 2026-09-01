@@ -29,6 +29,16 @@ const ACHIEVEMENTS = [
     date: "11 Agustus 2026"
   },
   {
+    medal: "part",
+    medalLabelId: "FINAL",
+    medalLabelEn: "FINAL",
+    titleId: "NOOC 3.1 &mdash; Matematika (Advanced Level)",
+    titleEn: "NOOC 3.1 &mdash; Matematika (Advanced Level)",
+    descId: "Nusantara Online Olympiad Cup &middot; Babak Final Nasional",
+    descEn: "Nusantara Online Olympiad Cup &middot; National Final Round",
+    date: "21 JUNI 2026"
+  },
+  {
     medal: "gold",              
     medalLabelId: "EMAS",
     medalLabelEn: "GOLD",
@@ -67,16 +77,6 @@ const ACHIEVEMENTS = [
     descId: "Kejuaraan Olimpiade Sains Nasional &middot; Predikat A &middot; Tingkat Nasional",
     descEn: "National Science Olympiad Championship &middot; Grade A &middot; National Level",
     date: "12 MEI 2026"
-  },
-  {
-    medal: "part",
-    medalLabelId: "FINAL",
-    medalLabelEn: "FINAL",
-    titleId: "NOOC 3.1 &mdash; Matematika (Advanced Level)",
-    titleEn: "NOOC 3.1 &mdash; Matematika (Advanced Level)",
-    descId: "Nusantara Online Olympiad Cup &middot; Babak Final Nasional",
-    descEn: "Nusantara Online Olympiad Cup &middot; National Final Round",
-    date: "2026"
   }
 ];
 
